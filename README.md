@@ -1,3 +1,15 @@
+# Balancing Upkie with PPO
+
+## Project Presentation
+
+The goal of this project is to improve the robot's balance using reinforcement learning. We measure the robot's balance with an indicator called MSFOS, defined below. We use the PPO (Proximal Policy Optimization) algorithm to control the robot's balance.
+
+The specific problem is to increase the force that can be applied for one second on the robot's sagittal plane before it falls. We will refer to this criterion as MSFOS, defined as follows for the rest of the project:
+
+**Definition:**
+MSFOS is the maximum sagittal force (in N) applied to the Upkie robot between 1.5s and 2.5s of simulation, such that the robot remains standing until the 10th second of simulation, with a success probability greater than 2/3.
+
+
 # Summary of MSFOS Values for Different Policies
 
 | Policy                  | MSFOS (N) |

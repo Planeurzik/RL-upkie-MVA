@@ -225,9 +225,6 @@ In the folder policies/, you may find the three policies we trained for this pro
 * The curriculum learning policy
 * The servos policy
 
-## Run servos policy
+## Run policies
 
-To run the servos policy, you will have to use `run_servos.py` file to have the good wrapper in order to launch the policy. Then launch it with :
-```bash
-python3 run_servos.py policy.zip
-```
+To help you running the simulation, we put the `ppo_balancer/` folder with all of our code as it is when we launched it. Just copy this folder into yours and it should be enough to run it.

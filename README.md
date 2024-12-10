@@ -228,3 +228,7 @@ In the folder policies/, you may find the three policies we trained for this pro
 ## Run policies
 
 To help you running the simulation, we put the `ppo_balancer/` folder with all of our code as it is when we launched it. Just copy this folder into yours and it should be enough to run it.
+* Run ppo_balancer/train_serv.sh with 1 agent to reproduces the MSFOS in the UpkieServos environment.
+* Run ppo_balancer/train.sh with 2 agent to reproduces the MSFOS in the UpkieServos environment.
+* Run ppo_balancer/run.py [path to the policy] to reproduces the MSFOS in the UpkieVelocity environment.
+* Run ppo_balancer/run_s.py [path to the policy] to reproduces the MSFOS in the UpkieServos environment.

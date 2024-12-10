@@ -1,3 +1,15 @@
+# Summary of MSFOS Values for Different Policies
+
+| Policy                  | MSFOS (N) |
+|-------------------------|-----------|
+| Baseline PPO Policy     | 4.3       |
+| Linear Feedback         | 4.5       |
+| Curriculum Learning     | 10.3      |
+| Servos Environment      | 8.1       |
+
+**Table 1:** Summary of MSFOS Values for different policies
+
+
 # Explanation of the code
 
 ## Linear feedback

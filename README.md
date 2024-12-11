@@ -1,5 +1,6 @@
 # Balancing Upkie with PPO
 
+![UpkieServos Environment](./Upkie.gif)
 ## Project Presentation
 
 The goal of this project is to improve the robot's balance using reinforcement learning. We measure the robot's balance with an indicator called MSFOS, defined below. We use the PPO (Proximal Policy Optimization) algorithm to control the robot's balance.
